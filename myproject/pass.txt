@@ -1,0 +1,3 @@
+user: Admin
+email admin@soni.com
+pass AdminSoni
