@@ -15,3 +15,6 @@ def add_quote(request):
         Quote.objects.create(author=author, text=text)
         return redirect('/quotes/')
     return render(request, 'quotes/add.html')
+
+def home(request):
+    return render(request, 'quotes/home.html')
